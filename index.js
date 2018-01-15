@@ -24,3 +24,18 @@ const numberE = -3000
 console.log(numberE / numberD)
 console.log("Number" + ":" + numberE)
 console.log(numberE + "test")
+console.log("---------------------------------------------------------------------")
+
+console.log("LEVEL 3")
+var number = [18, -200, 87, 1000]
+console.log("my favorite numbers are" + " " + number.toString());
+console.log(number.pop());
+console.log(number);
+
+number.push(88);
+console.log(number)
+
+console.log("loop......");
+for (i = 0; i < number.length; i++) {
+  console.log(number[i]);
+}
